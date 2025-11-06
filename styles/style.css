@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", sans-serif;
-    
+
 }
-body{
+
+body {
     background-color: #F5F5F5;
 }
+
 /* Global Styles */
-.container{
+.container {
     max-width: 1280px;
     margin: 80px auto 0;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
 }
-.section-para{
+
+.section-para {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #0E0E0E;
     opacity: 0.7;
 }
-.primary-btn{
+
+.primary-btn {
     padding: 13px 26px;
     background-color: #006A50;
     border-radius: 8px;
@@ -36,34 +41,39 @@ body{
     border: none;
 
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background-color: #fff;
     border: 1px solid #006A50;
     color: #006A50;
 }
+
 /* Styling header */
 /* Nav bar */
-#nav{
+#nav {
     /* width: 100%; */
     max-width: 1280px;
-     margin: 0 auto; 
+    margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
     margin-bottom: 24px;
 }
-.header > h1{
+
+.header>h1 {
     font-size: 32px;
     font-weight: 700;
     color: #0E0E0E;
     text-align: start;
-    
-    
+
+
 }
-.header > button{
+
+.header>button {
     padding: 15px 30px;
     border: 1px solid #006A50;
     border-radius: 8px;
@@ -72,16 +82,19 @@ body{
     font-weight: 500;
     color: #006A50;
 }
-.header > button:hover{
+
+.header>button:hover {
     background-color: #006A50;
     color: #fff;
 }
+
 /* Styling Banner Section */
-.bcontainer{
+.bcontainer {
     max-width: 1280px;
     margin: 0 auto;
 }
-.banner{
+
+.banner {
     display: flex;
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -90,54 +103,263 @@ body{
     align-items: center;
 
 }
-.bcontents{
+
+.bcontents {
     width: 48.6%;
 }
-.bcontents h2{
+
+.bcontents h2 {
     margin-bottom: 16px;
     font-size: 24px;
     font-weight: 500;
     color: #0E0E0E;
     opacity: 0.5;
 }
-.bcontents h1{
+
+.bcontents h1 {
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
     margin-bottom: 20px;
 }
-.bimage{
+
+.bimage {
     width: 38%;
 }
-.bimage img{
+
+.bimage img {
     width: 100%;
 }
+
 /* Styling Pillars of "Bangladesh 2.0"  */
-.pcontents .section-title{
+.pcontents .section-title {
     margin-bottom: 32px;
 }
-.box-container{
+
+.box-container {
     display: flex;
     gap: 24px;
     align-items: center;
 }
-.boxcon{
-   background-color: #fff; 
-  padding: 24px;  
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  border-radius: 16px;
+
+.boxcon {
+    background-color: #fff;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
 }
-.boxcon img{
+
+.boxcon img {
     width: 64px;
     height: 64px;
     margin-bottom: 25px;
 }
-.boxcon h3{
+
+.boxcon h3 {
     font-size: 20px;
     font-weight: 700;
     color: #0E0E0E;
     margin-bottom: 14px;
 }
-.boxcon p{
 
+/* The vision of future section styles */
+.vcontainer .section-title {
+    margin-bottom: 24px;
+}
+
+.vcontainer .section-para {
+    margin-bottom: 32px;
+}
+
+.vcontents {
+    display: flex;
+    gap: 24px;
+}
+
+.vcontents .con1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vcontents .con2 {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vcontents .con3 {
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.con1 button {
+    background-color: #5490F5;
+}
+
+.con2 button {
+    background-color: #09A15C;
+}
+
+.con3 button {
+    background-color: #FFC239;
+}
+
+.vcon img {
+    margin-bottom: 24px;
+}
+
+.vcon h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 14px;
+
+}
+
+/* Styling Recent News */
+.newsbox .section-title {
+    margin-bottom: 24px;
+}
+
+.newsbox .section-para {
+    margin-bottom: 32px;
+}
+
+.content-box {
+    display: flex;
+    gap: 32px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-bottom: 24px;
+    padding: 48px;
+}
+
+.content-box .img-con {
+    width: 32%;
+}
+
+.content-box .img-con img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.content-box .content-news {
+    width: calc(100% - 32%);
+}
+
+.content-news h3 {
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.content-news img {
+    margin-bottom: 12px;
+}
+.content-news .credit p {
+    display: inline-block;
+    margin-right: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+/* Styling Donate today */
+.dcontainer{
+    padding: 0px 88px;
+}
+.dcontainer .section-title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.dcontainer .section-para{
+    margin-bottom: 32px;
+    text-align: center;
+}
+.taka-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.taka-container .taka{
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.taka-container .taka h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+.dcontainer input{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    padding: 20px 0px;
+    margin-bottom: 32px;
+
+}
+.dcontainer input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 0.3;
+    text-align: center;
+}
+.dcontainer .btn{
+    text-align: center;
+    
+}
+/* Styling Newsletter section */
+.ncontents-box{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.ncontents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    width: 59%;
+    margin: 0 auto;
+}
+.ncontents .section-title{
+    margin-bottom: 16px;
+}
+.ncontents .section-para{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.form{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+.form input[type="email"]{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    padding: 18px 0;
+    border-radius: 8px 0px 0px 8px;
+    
+}
+input::placeholder{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.3;
+    padding-left: 40px;
+
+
+}
+.form .primary-btn{
+    border-radius: 0px 8px 8px 0px;
 }
