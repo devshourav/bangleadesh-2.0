@@ -1,3 +1,143 @@
-h1{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+body{
+    background-color: #F5F5F5;
+}
+/* Global Styles */
+.container{
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.section-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
+.primary-btn{
+    padding: 13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+
+}
+.primary-btn:hover{
+    background-color: #fff;
+    border: 1px solid #006A50;
+    color: #006A50;
+}
+/* Styling header */
+/* Nav bar */
+#nav{
+    /* width: 100%; */
+    max-width: 1280px;
+     margin: 0 auto; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    margin-bottom: 24px;
+}
+.header > h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    text-align: start;
+    
+    
+}
+.header > button{
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    color: #006A50;
+}
+.header > button:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+/* Styling Banner Section */
+.bcontainer{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bcontents{
+    width: 48.6%;
+}
+.bcontents h2{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.5;
+}
+.bcontents h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.bimage{
+    width: 38%;
+}
+.bimage img{
+    width: 100%;
+}
+/* Styling Pillars of "Bangladesh 2.0"  */
+.pcontents .section-title{
+    margin-bottom: 32px;
+}
+.box-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.boxcon{
+   background-color: #fff; 
+  padding: 24px;  
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.boxcon img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+.boxcon h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 14px;
+}
+.boxcon p{
+
 }
