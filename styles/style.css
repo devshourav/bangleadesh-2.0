@@ -21,6 +21,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
+
 }
 
 .section-para {
@@ -174,6 +175,7 @@ body {
 .vcontents {
     display: flex;
     gap: 24px;
+    margin-bottom: 32px;
 }
 
 .vcontents .con1 {
@@ -218,6 +220,119 @@ body {
 
 }
 
+/* quote */
+.quote-container {
+    padding: 48px 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    background-image: url(/UI/fi_2087863.png);
+    background-repeat: no-repeat;
+    background-position: 25px 24px;
+}
+
+.quote-container blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 12px;
+
+}
+
+.quote-container h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.quote-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.6;
+}
+
+/* Your Opinion Matters styles */
+.title {
+    margin-bottom: 24px;
+}
+
+.qcontainer {
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.qborder {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.qheading {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #C6E4D6;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.qheading h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+.qcont {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.qcont .question {
+    width: 70%;
+    padding: 36.5px 24px;
+    
+}
+
+.qcont .question h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+.qselect {
+    padding: 24px;
+    text-align: center;
+    border-left: 2px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.qselect .icon-fix {
+    padding: 16.5px 12.5px;
+    background-color: rgba(9, 161, 92, 0.15);
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+   
+}
+
+.qselect h3 {
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+
+}
+
+
 /* Styling Recent News */
 .newsbox .section-title {
     margin-bottom: 24px;
@@ -260,6 +375,7 @@ body {
 .content-news img {
     margin-bottom: 12px;
 }
+
 .content-news .credit p {
     display: inline-block;
     margin-right: 14px;
@@ -269,35 +385,42 @@ body {
     opacity: 0.8;
     margin-bottom: 12px;
 }
+
 /* Styling Donate today */
-.dcontainer{
+.dcontainer {
     padding: 0px 88px;
 }
-.dcontainer .section-title{
+
+.dcontainer .section-title {
     text-align: center;
     margin-bottom: 24px;
 }
-.dcontainer .section-para{
+
+.dcontainer .section-para {
     margin-bottom: 32px;
     text-align: center;
 }
-.taka-container{
+
+.taka-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
 }
-.taka-container .taka{
+
+.taka-container .taka {
     padding: 40px;
     background-color: #ffffff;
     border-radius: 16px;
 }
-.taka-container .taka h2{
+
+.taka-container .taka h2 {
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
     opacity: 0.8;
 }
-.dcontainer input{
+
+.dcontainer input {
     display: block;
     width: 100%;
     border: none;
@@ -306,23 +429,27 @@ body {
     margin-bottom: 32px;
 
 }
-.dcontainer input::placeholder{
+
+.dcontainer input::placeholder {
     font-size: 20px;
     font-weight: 400;
     color: #0E0E0E;
     opacity: 0.3;
     text-align: center;
 }
-.dcontainer .btn{
+
+.dcontainer .btn {
     text-align: center;
-    
+
 }
+
 /* Styling Newsletter section */
-.ncontents-box{
+.ncontents-box {
     background-color: #C6E4D6;
     border-radius: 24px;
 }
-.ncontents{
+
+.ncontents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,28 +458,33 @@ body {
     width: 59%;
     margin: 0 auto;
 }
-.ncontents .section-title{
+
+.ncontents .section-title {
     margin-bottom: 16px;
 }
-.ncontents .section-para{
+
+.ncontents .section-para {
     text-align: center;
     margin-bottom: 24px;
 }
-.form{
+
+.form {
     display: flex;
     width: 100%;
     margin-bottom: 25px;
 
 }
-.form input[type="email"]{
+
+.form input[type="email"] {
     width: 100%;
     display: inline-block;
     border: none;
     padding: 18px 0;
     border-radius: 8px 0px 0px 8px;
-    
+
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 16px;
     color: #0E0E0E;
     opacity: 0.3;
@@ -360,6 +492,7 @@ input::placeholder{
 
 
 }
-.form .primary-btn{
+
+.form .primary-btn {
     border-radius: 0px 8px 8px 0px;
 }
